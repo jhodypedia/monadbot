@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const Web3 = require('web3');
 
-const token = '7638949469:AAGkpSs1Lj0fs7lgrlk7BODFYITrB19W_qI'; // Ganti dengan token bot Anda
+const token = 'APIBOTTELE'; // Ganti dengan token bot Anda
 const bot = new TelegramBot(token, { polling: true });
 const providerUrl = 'https://testnet-rpc.monad.xyz/';
 const web3 = new Web3(providerUrl);
